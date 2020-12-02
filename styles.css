@@ -5,3 +5,13 @@ textarea{
     padding: 1rem;
     margin: 1rem;
 }
+#output{
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    padding: 1rem;
+    margin: 1rem;
+}
+#op-text{
+    font-size: larger;
+}
