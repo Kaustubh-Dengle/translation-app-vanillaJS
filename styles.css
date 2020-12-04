@@ -1,17 +1,96 @@
-textarea{
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+
+:root {
+    --bg-color: #FFFA9B;
+    --nav-color: yellow;
+    --txtarea-color: rgb(255, 255, 194);
+    font-family: 'Yeon Sung', cursive;
+}
+
+body {
+    margin: 0rem;
+    padding: 0.1rem;
+    background-image: url("/images/minions1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: 55vh;
+    background-color: var(--bg-color);
+    font-size: 24px;
+
+}
+
+textarea {
     display: block;
-    width: 80%;
+    width: 40vw;
     height: 10vh;
     padding: 1rem;
-    margin: 1rem;
+    margin: auto;
+    background-color: var(--txtarea-color);
+    font-family: 'Yeon Sung', cursive;
+    font-size: 24px;
+    border-radius: 0.5rem;
 }
-#output{
+
+#output {
     border: 1px solid black;
+    border-radius: 0.5rem;
     height: 10vh;
-    width: 80%;
+    width: 40vw;
     padding: 1rem;
-    margin: 1rem;
+    margin: auto;
+    background-color: var(--txtarea-color);
 }
-#op-text{
+
+#op-text {
+    font-size: 30px;
+    padding: 1rem 1rem;
+    margin: auto;
+    text-align: center;
+
+    /* font-family: 'Yeon Sung', cursive; */
+}
+
+#btn-translate {
+    padding: 1rem;
+    padding-top: 1rem;
+    max-width: 150px;
+    margin: auto;
+    margin-top: 1rem;
+    display: block;
+    font-family: 'Yeon Sung', cursive;
+    font-weight: bold;
     font-size: larger;
+    border-radius: 0.5rem;
+    /* background-color: var(--bg-color); */
+}
+
+.top-container {
+    padding: 1rem;
+    margin: 0rem;
+    margin-bottom: 1rem;
+    margin-top: 0rem;
+    text-align: center;
+    background-color: var(--nav-color);
+    font-size: 40px;
+}
+
+.container {
+    text-align: center;
+}
+
+.banana-img{
+    padding: 1rem;
+    float: left;
+    max-width: 250px;
+    display: inline-block;
+    position: relative;
+}
+
+.banana-img2{
+    padding: 1rem;
+    float: right;
+    max-width: 250px;
+    display: inline-block;
+    position: relative;
 }
